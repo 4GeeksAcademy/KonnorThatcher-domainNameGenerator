@@ -8,7 +8,7 @@ window.onload = function() {
       for (let n of nouns) {
         for (let x of ext) {
           console.log(`${[p,a,n,x].join('')}`);
-          //document.querySelector("#output").innerHTML += `${[p,a,n,x].join('')} <br>`; // This line prints the generated domains on to the HTML page. Why don't you uncomment(?) it?
+          //document.querySelector("#output").innerHTML += `<p class="h5 m-3">${[p,a,n,x].join('')}</p>`; // This line prints the generated domains on to the HTML page. Why don't you uncomment(?) it?
         }
       }
     }
@@ -16,7 +16,7 @@ window.onload = function() {
   
 };
 
-let pronouns = ["the", "our", "them"];
-let adj = ["great", "epic", "fantastic", "scrumptious"];
-let nouns = ["racoon", "win", "khakis"];
-let ext = [".com", ".de", ".net", ".gov", ".io"]
+let pronouns = ["the", "our", "this"];
+let adj = ["great", "epic", "dubious", "ultimate"];
+let nouns = ["bamboozle", "win", "website"];
+let ext = [".com", ".us", ".net", ".gov", ".io"]
